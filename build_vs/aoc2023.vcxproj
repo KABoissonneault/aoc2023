@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -133,11 +133,13 @@
   <ItemGroup>
     <ClCompile Include="..\src\day1.cpp" />
     <ClCompile Include="..\src\day2.cpp" />
+    <ClCompile Include="..\src\day3.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\parse.cpp" />
     <ClCompile Include="..\src\registry.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\maths.h" />
     <ClInclude Include="..\src\parse.h" />
     <ClInclude Include="..\src\registry.h" />
   </ItemGroup>

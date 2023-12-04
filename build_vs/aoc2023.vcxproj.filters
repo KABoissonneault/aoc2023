@@ -30,12 +30,18 @@
     <ClCompile Include="..\src\day2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\day3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\parse.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="..\src\registry.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\maths.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
