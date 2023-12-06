@@ -135,6 +135,7 @@
     <ClCompile Include="..\src\day2.cpp" />
     <ClCompile Include="..\src\day3.cpp" />
     <ClCompile Include="..\src\day4.cpp" />
+    <ClCompile Include="..\src\day5.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\parse.cpp" />
     <ClCompile Include="..\src\registry.cpp" />
