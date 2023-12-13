@@ -3,6 +3,7 @@
 #include <cstdio>
 #include <format>
 #include <fstream>
+#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -43,11 +44,12 @@ int main(int argc, char* argv[])
 	std::printf("Part 1:\n");
 	try 
 	{
-		std::string solution1 = solver.part1(input);
-		std::puts(solution1.c_str());
+		solver.solve_part1(input, std::cout);
+		std::cout << std::endl;
 	} 
 	catch (const std::exception& e) 
 	{
+		std::puts("");
 		std::puts(e.what());
 		return -1;
 	}
@@ -57,20 +59,15 @@ int main(int argc, char* argv[])
 
 	do
 	{
-		if (solver.part2 == nullptr)
-		{
-			std::printf("Part 2:\n (Not implemented)\n");
-			break;
-		}
-
 		std::printf("Part 2:\n");
 		try
 		{
-			std::string solution2 = solver.part2(input);
-			std::puts(solution2.c_str());
+			solver.solve_part2(input, std::cout);
+			std::cout << std::endl;
 		}
 		catch (const std::exception& e)
 		{
+			std::puts("");
 			std::puts(e.what());
 			return -1;
 		}
